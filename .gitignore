@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.a
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# CUDA build
+cuda/build/
+cuda/dist/
+cuda/*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Results (optionnel - décommente si tu ne veux pas versionner les benchmarks)
+# benchmarks/results/*.json
+# benchmarks/results/*.png
+
+# OS
+.DS_Store
+Thumbs.db
